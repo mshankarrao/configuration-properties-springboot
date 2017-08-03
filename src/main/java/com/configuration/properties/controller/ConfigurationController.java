@@ -15,8 +15,14 @@ public class ConfigurationController {
     private MyConfig myConfig;
 
     @RequestMapping("/")
+    public String testMessage()
+    {
+        return "Welcome";
+    } 
+
+    @RequestMapping("/message")
     public String testConfigurationProperties()
     {
-        return myConfig.getAdminFirstName()+" is from Configuration properties";
+        return myConfig.getAdminFirstName()+" is from Configuration/application properties";
     }
 }

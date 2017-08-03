@@ -1,0 +1,5 @@
+---
+applications:
+- name: configuration-properties-springboot
+  memory: 200M
+  disk_quota: 300M
