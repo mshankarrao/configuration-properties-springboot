@@ -1,5 +1,6 @@
 ---
 applications:
 - name: configuration-properties-springboot
-  memory: 200M
-  disk_quota: 300M
+  memory: 300M
+  disk_quota: 350M
+  path: target/configuration-properties-springboot-0.0.1-SNAPSHOT.jar
